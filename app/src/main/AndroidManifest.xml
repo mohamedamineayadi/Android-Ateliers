@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.curriculumvitae">
+    package="com.example.curriculumvitaev2">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CurriculumVitae">
+        android:theme="@style/Theme.CurriculumVitaeV2">
+        <activity
+            android:name=".AddExperienceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyCareer"
+            android:exported="true" />
+        <activity
+            android:name=".FourActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TroisiemeActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.CurriculumVitaeV2.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
